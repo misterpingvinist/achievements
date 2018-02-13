@@ -3,7 +3,7 @@
 import { configure, HTMLAttributes, shallow, ShallowWrapper } from "enzyme";
 import * as ReactSixteenAdapter from "enzyme-adapter-react-16";
 import * as React from "react";
-import sinon from "sinon";
+import * as sinon from "sinon";
 import { Hello } from "../components/Hello";
 const ada = new ReactSixteenAdapter();
 configure({ adapter: ada });
