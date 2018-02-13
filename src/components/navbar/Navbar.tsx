@@ -1,7 +1,8 @@
 import * as React from "react";
+import "./Navbar.sass";
 export default () => (
   <div className="header-top-bar">
-    <div className="bar" style={{ margin: "0 auto" }}>
+    <div className="bar">
       <span>
         <a
           href="#header-regions"

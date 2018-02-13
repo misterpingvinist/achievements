@@ -2,6 +2,7 @@ import * as React from "react";
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 import { Login } from "../components/auth/Login";
 import Navbar from "../components/navbar/Navbar";
+import "./App.sass";
 
 const Home = () => (
   <div>
